@@ -1,6 +1,7 @@
 'use strict';
 exports.config = {
-    directConnect: true,
+    //directConnect: true,
+    seleniumServer: 'http://localhost:4444/wd/hub',
     baseUrl: 'https://vimeo.com/cameo',
     capabilities: {
         browserName: 'chrome'
@@ -15,10 +16,6 @@ exports.config = {
         // browser.driver.manage().window().maximize();
         browser.ignoreSynchronization = true;
         browser.waitForAngular();
-
-        // const chai = require('chai');
-        // global.should = chai.should();
-        // chai.use(require('chai-as-promised'));
     },
     cucumberOpts: {
         require: ['e2e/step_definitions/*.js', 'e2e/support/Constructor.js'],
