@@ -3,7 +3,6 @@
   "version": "0.0.1",
   "description": "Cameo",
   "scripts": {
-    "install": "npm run update-webdriver",
     "prestart": "webdriver-manager update",
     "start": "webdriver-manager start",
     "e2e":"protractor protractor.config.js"
