@@ -4,7 +4,8 @@
   "description": "Cameo",
   "scripts": {
     "start": "webdriver-manager start",
-    "test":"protractor protractor.config.js"
+    "test":"protractor protractor.config.js",
+    "postinstall": "./node_modules/protractor/bin/webdriver-manager update"
   },
   "devDependencies": {
     "cucumber": "^1.3.1",
