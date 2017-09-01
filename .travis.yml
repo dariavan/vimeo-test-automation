@@ -1,5 +1,8 @@
 language: node_js
 node_js:
   - "6"
+ addons:
+  chrome: stable
 before_install:
-  - "npm install chromedriver --chromedriver_version=2.26"
+  - # "npm install chromedriver --chromedriver_version=2.26"
+  - google-chrome-stable --headless --disable-gpu --remote-debugging-port=9222 http://localhost &
