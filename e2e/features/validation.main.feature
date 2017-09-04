@@ -7,7 +7,6 @@ Feature: Check elements via scrolling
   Scenario Outline: Scrolling page and check visible elements
       And '<screen>' should be visible
      Then I scroll down '<count>' time(s)
-      And '<screen>' should be invisible
 
     Examples:
     |screen             |count|
