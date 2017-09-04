@@ -14,7 +14,6 @@ Feature: Check elements via scrolling
     |phonePicture       |1.5  |
     |sliding            |0.8  |
     |video_ctrl         |1.5|
-    |features           |3  |
     |video              |4    |
     |soundtracks        |4  |
     |videolist          |5    |
