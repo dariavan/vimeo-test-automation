@@ -11,7 +11,6 @@ Feature: Check elements via scrolling
     Examples:
     |screen             |count|
     |desktop            |5.5 |
-    |phonePicture       |1.5  |
     |sliding            |0.8  |
     |video_ctrl         |1.5|
     |video              |4    |
